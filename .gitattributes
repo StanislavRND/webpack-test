@@ -1,0 +1,15 @@
+# Установить LF для всех текстовых файлов
+* text=auto
+
+# Принудительное LF для исходного кода
+*.js text eol=lf
+*.ts text eol=lf
+*.tsx text eol=lf
+*.scss text eol=lf
+
+# Принудительное CRLF для batch-файлов (только для Windows)
+*.bat text eol=crlf
+
+# Отключить обработку для бинарных файлов
+*.png binary
+*.jpg binary
